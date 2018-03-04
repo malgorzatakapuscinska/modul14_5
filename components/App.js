@@ -29,7 +29,7 @@ var App = React.createClass({
 	propTypes: {
 		
 	},
-	render function() {
+	render: function() {
 		return (
 			React.createElement('div', {className: 'app'},
 				React.createElement(ContactForm, {contact: contactForm}),
@@ -38,7 +38,7 @@ var App = React.createClass({
 		);
 	}
 	
-})
+});
 
 
 

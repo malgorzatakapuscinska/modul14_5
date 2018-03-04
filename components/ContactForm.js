@@ -2,7 +2,7 @@ var ContactForm = React.createClass({
 	propTypes: {
 		contact: React.PropTypes.object.isRequired,
 	},
-	render function(){
+	render: function(){
 		return (
 			React.createElement('form', {className: 'contact_form'},
 				React.createElement('imput', {
