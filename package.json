@@ -7,7 +7,7 @@
     "test": "npm run test:html && npm run test:js",
     "start": "nodemon index.js",
     "test:html": "glob-run nu-html-checker *.html",
-    "test:js": "jshint js",
+    "test:js": "jshint components",
     "init-project": " npm run init:npm-install && npm run init:dirs && npm run init:files && npm run init:gitignore",
     "init:dirs": "mkdirp sass css vendor images js",
     "init:files": "touch README.md index.html sass/style.scss js/scripts.js",
