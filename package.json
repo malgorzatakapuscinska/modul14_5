@@ -35,19 +35,20 @@
   },
   "homepage": "https://github.com/malgorzatakapuscinska/modul13_5#readme",
   "dependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "babel-standalone": "^6.26.0",
     "browser-sync": "^2.23.6",
     "colors": "^1.1.2",
     "formidable": "^1.1.1",
-    "mv": "^2.1.1",
-    "nodemon": "^1.15.1",
-    "stat-mode": "^0.2.2",
-    "autoprefixer-cli": "^1.0.0",
     "jshint": "^2.9.5",
     "mkdirp": "^0.5.1",
+    "mv": "^2.1.1",
     "node-sass": "^4.7.2",
+    "nodemon": "^1.15.1",
     "nu-html-checker": "^0.1.0",
     "onchange": "^3.3.0",
     "parallelshell": "^3.0.2",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "stat-mode": "^0.2.2"
   }
 }
